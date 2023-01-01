@@ -16,9 +16,18 @@ body{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
-/* Убираем точки у списков */
+/* Убираем точки у всех списков списков
+Обнуляем все дефолтные margine всем спискам */
 .list {
     list-style: none;
+
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* Обнуляем все дефолтные margine заголовкам */
+h1, h2, h3 {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 /* Хедер */
 .header {
@@ -82,9 +91,6 @@ span {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    margin-bottom: 0;
-    margin-top: 0;
 
     outline: 1px solid chocolate;
 }
