@@ -83,6 +83,8 @@ span {
 .hero {
     background-color: var(--background-color-hero-footer);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
     color: var(--color-text-white);
@@ -92,7 +94,7 @@ span {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    outline: 1px solid chocolate;
+    margin-bottom: 30px;
 }
 .btn-hero {
     font-family: inherit;
@@ -102,6 +104,10 @@ span {
     
     letter-spacing: 0.06em;
     cursor: pointer;
+    border-radius: 4px;
+    border-style: none;
+
+    padding: 10px 32px;
 }
 /* Качества наших работников */
 .skill-list .title {
