@@ -123,13 +123,24 @@ span {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+
+    margin-bottom: 10px;
 }
 .skill-list .text {
   font-size: 14px;
-  line-height: 1.71;  
+  line-height: 1.71; 
+  
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 /* Чем мы занимаемся */
+.doing {
+    padding-top: 0;
+}
+.doing .section-title {
+    margin-bottom: 50px;
+}
 /* Наша команда */
 .section-team {
     background-color: var(--color-button-team);
@@ -153,6 +164,7 @@ span {
 .img-our-team {
     margin-bottom: 30px;
 }
+
 /* Список кнопок для портфолио*/
 .button-grey {
     color: var(--color-title);
