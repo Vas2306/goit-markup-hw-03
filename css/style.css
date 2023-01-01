@@ -147,12 +147,18 @@ span {
     text-align: center;
     letter-spacing: inherit;
     cursor: pointer;
+    border-radius: 4px;
+
+    padding: 6px 22px;
+    border-style: none;
 }
 
 .button-grey:hover,
 .button-grey:focus {
     color: var(--color-text-white);
     background-color: var(--color-acent);
+
+    padding: 6px 25px;
 }
 /* Портфолио работ */
 .portfolio-link {
