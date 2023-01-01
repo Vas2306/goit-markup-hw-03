@@ -15,6 +15,8 @@ body{
 
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+
+    width: 1600px;
 }
 /* Убираем точки у всех списков списков
 Обнуляем все дефолтные margine всем спискам */
@@ -79,6 +81,12 @@ span {
     line-height: 1.17;
     text-align: center;
 }
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 /* Секция Герой */
 .hero {
     background-color: var(--background-color-hero-footer);
@@ -130,11 +138,20 @@ span {
     color: var(--color-title);
     font-weight: 500;
     line-height: 1.19;
-    text-align: center;
+
+    margin-bottom: 10px;
 }
 .team-list .text {
     line-height: 1.19;
-    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.our-team {
+    margin-bottom: 50px;
+} 
+.img-our-team {
+    margin-bottom: 30px;
 }
 /* Список кнопок для портфолио*/
 .button-grey {
