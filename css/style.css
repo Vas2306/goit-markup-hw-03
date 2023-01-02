@@ -198,10 +198,16 @@ span {
     color: var(--color-title);
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;  
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;  
 }
 .portfolio-list .text {
     line-height: 1.88;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.portfolio-list .img {
+    margin-bottom: 20px;
 }
 
 /* Кнопки */
