@@ -25,6 +25,7 @@ body{
 
     margin-bottom: 0;
     margin-top: 0;
+    padding-left: 0;
 }
 /* Обнуляем все дефолтные margine заголовкам */
 h1, h2, h3 {
@@ -211,6 +212,8 @@ span {
 /* Footer */
 .footer .logo {
     color: var(--color-text-white);
+    display: inline-block;
+    margin-bottom: 20px;
 }
 .footer {
     background-color: var(--background-color-hero-footer);
@@ -230,4 +233,16 @@ span {
 .address .link:hover,
 .address .link:focus {
     color: var(--color-acent);
+}
+.footer > .container {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.address p {
+    margin-bottom: 9px;
+    margin-top: 0;
+}
+.address .email {
+    display: inline-block;
+    margin-bottom: 9px;
 }
