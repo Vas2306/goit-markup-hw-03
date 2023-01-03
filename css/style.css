@@ -176,15 +176,29 @@ span {
 }
 
 /* Чем мы занимаемся */
-.doing {
+.container.work {
     padding-top: 0;
 }
-.doing .section-title {
+.work .section-title {
     margin-bottom: 50px;
+}
+.work-list .img {
+    display: block;
+}
+.work-list {
+    display: flex;
+    justify-content: space-between;
 }
 /* Наша команда */
 .section-team {
     background-color: var(--color-button-team);
+}
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+.team-list .item {
+    text-align: center;
 }
 .team-list .title {
     margin-bottom: 10px;
