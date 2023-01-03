@@ -33,12 +33,22 @@ h1, h2, h3 {
     margin-top: 0;
 }
 /* Хедер */
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header {
     background-color: var(--color-text-white);
-
-    outline: 1px solid var(--color-acent);
 }
+/* логотип */
 .logo {
+    margin-right: 93px;
+
     color: var(--color-black-logo);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -50,8 +60,24 @@ h1, h2, h3 {
 span {
     color: var(--color-acent);
 }
+/* Кнопки-навигации по страницам сайта */
+.site-nav.list {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px; 
+}
+.site-nav .item + .item {
+    margin-left: 50px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
 .site-nav .link {
     color: var(--color-title);
+    display: block;
+
 }    
 .site-nav .link,
 .auth-nav .link {
@@ -68,6 +94,14 @@ span {
 .site-nav .link.current {
     color: var(--color-acent);
 }
+/* Кнопки Email и телефон */
+.auth-nav.list {
+    display: flex;
+    margin-left: auto;
+}
+.auth-nav .item + .item {
+    margin-left: 50px;
+}
 .auth-nav .link {
     color: var(--color-text);
 }
@@ -83,10 +117,12 @@ span {
     text-align: center;
 }
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     padding-bottom: 94px;
     padding-top: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /* Секция Герой */
 .hero {
