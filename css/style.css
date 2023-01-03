@@ -221,9 +221,21 @@ span {
 }
 
 /* Список кнопок для портфолио*/
+.butt-portfolio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.butt-portfolio .item + .item {
+    margin-left: 8px;
+}
 .button-grey {
     padding: 6px 22px;
     border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+
+    outline: 1px solid crimson;
 
     color: var(--color-title);
     background-color: var(--color-button-team);
@@ -232,9 +244,7 @@ span {
     font-weight: 500;
     line-height: 1.63;
     text-align: center;
-    letter-spacing: inherit;
-    cursor: pointer;
-    border-style: none;
+    letter-spacing: inherit; 
 }
 
 .button-grey:hover,
@@ -245,11 +255,22 @@ span {
     background-color: var(--color-acent); 
 }
 /* Портфолио работ */
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.portfolio-list > .item {
+    flex-basis: calc((100% - 60px) / 3);
+
+    outline: 1px solid cornflowerblue;
+}
 .portfolio-link {
     text-decoration: none;
 }
 .portfolio-list .title {
     margin-bottom: 4px;
+    margin-left: 24px;
 
     color: var(--color-title);
     font-size: 18px;
@@ -259,6 +280,7 @@ span {
 .portfolio-list .text {
     margin-bottom: 20px;
     margin-top: 0;
+    margin-left: 24px;
 
     line-height: 1.88;
 }
