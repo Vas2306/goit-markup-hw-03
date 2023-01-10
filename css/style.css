@@ -16,7 +16,6 @@ body{
     color: var(--color-text);
 
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
 }
 /* Убираем точки у всех списков списков
 Обнуляем все дефолтные margine всем спискам */
@@ -130,6 +129,7 @@ span {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .container {
     width: 1200px;
@@ -181,6 +181,7 @@ span {
     color: var(--color-title);
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;   
 }
 .skill-list .text {
@@ -189,6 +190,7 @@ span {
     
   font-size: 14px;
   line-height: 1.71; 
+  letter-spacing: 0.03em;
 }
 
 /* Чем мы занимаемся */
@@ -222,12 +224,14 @@ span {
     color: var(--color-title);
     font-weight: 500;
     line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .team-list .text {
     margin-top: 0;
     margin-bottom: 30px;
 
     line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .our-team {
     margin-bottom: 50px;
@@ -324,6 +328,7 @@ span {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .address .link {
     color: var(--color-footer-telefon);
