@@ -141,14 +141,19 @@ span {
 }
 /* Секция Герой */
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
     background-color: var(--background-color-hero-footer);
+    text-align: center;
+}
+.container-hero{
+    max-width: 696px;
+   
 }
 .hero-title {
     margin-bottom: 30px;
-
     color: var(--color-text-white);
     font-weight: 900;
     font-size: 44px;
