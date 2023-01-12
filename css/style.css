@@ -224,6 +224,7 @@ span {
     justify-content: space-between;
 }
 .team-list .item {
+    width: calc((100% - 90px) / 4);
     text-align: center;
 }
 .team-list .title {
