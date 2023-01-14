@@ -43,6 +43,10 @@ h1, h2, h3 {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/* Превращаем все img в блоки */
+.img {
+    display: block;
+}
 /* Хедер */
 .header-container {
     display: flex; 
@@ -215,9 +219,6 @@ span {
 .work .section-title {
     margin-bottom: 50px;
 }
-.work-list .img {
-    display: block;
-}
 .work-list {
     display: flex;
     justify-content: space-between;
@@ -329,6 +330,8 @@ span {
     margin-left: 24px;
 
     line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
 }
 .caption-photo {
     padding-bottom: 20px;
@@ -352,28 +355,28 @@ span {
     padding-top: 60px;
     background-color: var(--background-color-hero-footer);
 }
-.address {
-    color: var(--color-text-white);
-    font-style: normal;
+
+.address .link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-}
-.address .link {
-    color: var(--color-footer-telefon);
-    font-size: 14px;
-    line-height: 1.71;
+    font-style: normal;
     text-decoration: none;
 }
-.address .link:hover,
-.address .link:focus {
+.address .hover:hover,
+.address .hover:focus {
     color: var(--color-acent);
 }
-.address p {
-    margin-bottom: 9px;
-    margin-top: 0;
+.address .address-link {
+    color: var(--color-text-white);
 }
 .address .email {
     display: inline-block;
+    color: var(--color-footer-telefon);
+}
+.address .phone {
+color: var(--color-footer-telefon);
+} 
+.address .item {
     margin-bottom: 9px;
 }
